@@ -20,7 +20,7 @@ func greet(w http.ResponseWriter, r *http.Request) {
 func greetall(w http.ResponseWriter, r *http.Request) {
 	customers := []customer{
 		{Name: "setu", City: "agra", Zip: "465644"},
-		{Name: "ruchika", City: "krisnagiri", Zip: "875644"},
+		{Name: "soumy", City: "fdhgiri", Zip: "875644"},
 	}
 	if r.Header.Get("Content-Type") == "application/xml" {
 		w.Header().Add("Content-Type", "application/xml")
